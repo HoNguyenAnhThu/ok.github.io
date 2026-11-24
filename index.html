@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <style>
+        body {
+            background: #eee6ff;
+            text-align: center;
+            font-family: Arial;
+            padding: 100px 20px;
+        }
+
+        h1 {
+            color: #7652a8;
+        }
+
+        button {
+            background: #9875d5;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to my website! ✨</h1>
+    <p>This is my first website.</p>
+
+    <button onclick="register()">Register</button>
+    <p id="message"></p>
+
+    <script>
+        function register() {
+            document.getElementById("message").innerText =
+            "Successfully registered! 💜";
+        }
+    </script>
+</body>
+</html>
